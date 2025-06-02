@@ -160,6 +160,18 @@ public class VsTape : MonoBehaviour, IField
         {
             bug = GameObject.Find("Canvas/UI/Vs/Moving/Vs Bug").GetComponent<Image>();
         }
+        // replace previous if statment with this
+        // Checks if touch screen is set to enabled for current sceen
+        //if (GameObject.Find("Canvas/Touch Screen/Check").GetComponent<Text>() == "Enabled")
+        //{
+        //   tape = GameObject.Find("Canvas/UI/Vs/Moving").GetComponent<Image>();
+        //    bug = GameObject.Find("Canvas/UI/Vs/Moving/Vs Bug").GetComponent<Image>();
+        //    centerBugHeight = (float)-1.9;
+        //}
+        //else
+        //{
+        //    bug = GameObject.Find("Canvas/UI/Vs/Moving/Vs Bug").GetComponent<Image>();
+        //}
     }
 
     // Update is called once per frame
