@@ -64,7 +64,7 @@ public class AltTape : MonoBehaviour, IField
             dataManager.enterPhase0Data();
             mode = 1;
             // change the visual mode
-            global.changeUiMode("Canvas/UI/Alt/Alt Target Box", "Canvas/UI/Alt/Alt Target Box/Speed Target Value", mode)
+            global.changeUiMode("Canvas/UI/Alt/Alt Target Box", "Canvas/UI/Alt/Alt Target Box/Speed Target Value", mode);
             oldTargetAlt = targetAlt;
         }
         else {

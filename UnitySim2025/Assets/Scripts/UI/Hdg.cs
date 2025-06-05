@@ -127,7 +127,7 @@ public class Hdg : MonoBehaviour, IField
         else
         {
             clockwise = current - target;
-            anticlockwise = 360 - current + target
+            anticlockwise = 360 - current + target;
         }
 
         //return the smaller distance
@@ -184,7 +184,7 @@ public class Hdg : MonoBehaviour, IField
         currentHdg = 0;
         targetHdg = 0;
 
-        if (SceneManager.GetActiveScene()name == "TouchDirect")
+        if (SceneManager.GetActiveScene().name == "TouchDirect")
         {
             direct = true;
         }
@@ -205,7 +205,7 @@ public class Hdg : MonoBehaviour, IField
             currentHdg = currentHdg % 360;
             targetHdg = targetHdg % 360;
             hdgVal.text = Mathf.RoundToInt(currentHdg == 0 ? 360 : currentHdg).ToString();
-            targetval.text = Mathf.RoundToInt(targetHdg == 0 ? 360 : targetHdg).ToString():
+            targetval.text = Mathf.RoundToInt(targetHdg == 0 ? 360 : targetHdg).ToString();
 
             //To fix issue of the bug not moving (come back and look at)
             if (lastTarget != targetHdg)
